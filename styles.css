@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  border: 1px dashed;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-image: url(./assets/fcbackground.png);
+  background-repeat: repeat;
+  background-size: 20px 20px;
+}
+
+
+h1 {font-size: 50px;
+    font-family: monospace;
+
+}
+
+button {
+  margin: 15px;
+  padding: 12px 18px;
+  border: 1px solid black;
+  background: red;
+  color: #fff;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 4px;
+
+}
+
+p {color: red;
+font-family: monospace;
+  padding: 20px;
+border: 1px solid;
+border-color: black;
+background:white;}
+
+@media screen and (min-width: 851px) {
+
+
+  .container {
+
+    display: flex;
+    border: 1px dashed;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-image: url(./assets/fcbackground.png);
+    background-repeat: repeat;
+    background-size: 20px 20px;
+  }
+
+}
